@@ -1,5 +1,5 @@
 {
-    "bootstrap_expect": 1,
+    "bootstrap_expect": ,
     "client_addr": "0.0.0.0",
     "data_dir": "/home/ubuntu/localdata",
     "enable_script_checks": true,
