@@ -3,5 +3,10 @@
     "name": "socat",
     "port": 8181,
     "connect": { "sidecar_service": {} }
+  },
+  "acl": {
+  	"enabled": true,
+  	"enable_token_persistence": true,
+  	"default_policy": "deny"
   }
 }

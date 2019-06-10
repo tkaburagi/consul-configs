@@ -1,0 +1,10 @@
+{
+  "service": {
+    "name": "socat",
+    "port": 8181
+  },
+  "acl": {
+    "enabled": true,
+    "default_policy": "allow"
+  }
+}
