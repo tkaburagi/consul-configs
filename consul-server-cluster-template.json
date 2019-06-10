@@ -13,8 +13,5 @@
     "log_level": "INFO",
     "rejoin_after_leave": true,
     "server": true,
-    "start_join": [
-        "CONSUL_ADDR_LIST"
-    ],
     "ui": true
 }
