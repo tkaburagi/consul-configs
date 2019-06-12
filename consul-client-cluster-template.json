@@ -1,5 +1,5 @@
 {
-    "bootstrap_expect": SERVER_NUM_REPLACE,
+    "client_addr": "0.0.0.0",
     "data_dir": "/home/ubuntu/localdata",
     "enable_script_checks": true,
     "dns_config": {
