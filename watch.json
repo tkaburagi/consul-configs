@@ -1,0 +1,11 @@
+{
+	"data_dir": "/Users/kabu/hashicorp/consul/localdata",
+	"watches": [
+		{
+			"type": "key",
+			"key": "watched-data",
+			"handler_type": "script",
+			"args":  ["/Users/kabu/hashicorp/consul/invoked.sh"]
+		}
+	]
+}
