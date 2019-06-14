@@ -34,14 +34,7 @@ scrape_configs:
       format: ['prometheus']
     static_configs:
     - targets: ['CONSUL_IP_REPLACE:8500']
-  - job_name: 'consul_sd_configs'
     consul_sd_configs:
     - server: '127.0.0.1:8500'
       services: ['consul', 'vault']
-    relabel_configs:
-      - source_labels: ['__meta_consul_address', '__meta_consul_service_port']
-        separator: ':'
-        regex: '(.*)'
-        target_label: '__address__'
-        replacement: '$1'
       
