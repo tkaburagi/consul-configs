@@ -13,5 +13,8 @@
     "log_level": "INFO",
     "rejoin_after_leave": true,
     "server": true,
-    "ui": true
+    "ui": true,
+    "telemetry": {
+        "prometheus_retention_time": "3h"
+    }
 }

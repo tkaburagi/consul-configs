@@ -7,5 +7,11 @@
 			"handler_type": "script",
 			"args":  ["/Users/kabu/hashicorp/consul/invoked.sh"]
 		}
-	]
+	],
+	"telemetry": {
+		"dogstatsd_addr": "localhost:8125",
+		"statsd_address": "localhost:8225",
+		"statsite_address": "localhost:8325",
+		"prometheus_retention_time": "3h"
+	}
 }
