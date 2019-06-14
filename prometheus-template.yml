@@ -34,3 +34,6 @@ scrape_configs:
       format: ['prometheus']
     static_configs:
     - targets: ['CONSUL_IP_REPLACE:8500']
+
+
+    
