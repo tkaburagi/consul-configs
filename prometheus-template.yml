@@ -34,10 +34,10 @@ scrape_configs:
       format: ['prometheus']
     static_configs:
     - targets: ['CONSUL_IP_REPLACE:8500']
-   - job_name: 'consul_sd_configs'
+  - job_name: 'consul_sd_configs'
     consul_sd_configs:
-      - server: '127.0.0.1:8500'
-        services: ['consul', 'vault']
+    - server: '127.0.0.1:8500'
+      services: ['consul', 'vault']
 
 
 
