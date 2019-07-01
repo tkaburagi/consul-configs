@@ -1,10 +1,13 @@
 {
   "service": {
     "name": "socat",
-    "port": 8181
+    "port": 8181,
   },
   "acl": {
     "enabled": true,
     "default_policy": "allow"
-  }
+  },
+  "data_dir": "/Users/kabu/hashicorp/consul/localdata",
+  "ui": true
+
 }
