@@ -2,12 +2,13 @@
   "service": {
     "name": "socat",
     "port": 8181,
+    "connect": { "sidecar_service": {} }
   },
   "acl": {
-    "enabled": true,
-    "default_policy": "allow"
+  	"enabled": true,
+  	"enable_token_persistence": true,
+  	"default_policy": "deny"
   },
   "data_dir": "/Users/kabu/hashicorp/consul/localdata",
   "ui": true
-
 }
