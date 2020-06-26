@@ -1,0 +1,18 @@
+{
+  "bootstrap_expect": 3,
+  "datacenter": "dc-1",
+  "ports" : {
+    "dns" : 9600,
+    "http" : 9500,
+    "https" : -1,
+    "grpc" : 9502,
+    "serf_lan" : 9301,
+    "serf_wan" : -1,
+    "server" : 9300
+  },
+  "data_dir": "/Users/kabu/hashicorp/consul/datadir/consul-local-cluster-3",
+  "log_level": "INFO",
+  "node_name": "node-3",
+  "server": true,
+  "ui": true
+}
